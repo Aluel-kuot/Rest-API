@@ -1,0 +1,235 @@
+
+body{
+    background-color: rgb(240, 245, 245);
+}
+nav{
+    background-color: rgb(71, 58, 58);
+    display: flex;
+    height: 100px;
+}
+nav a{
+    color: antiquewhite;
+    padding: 30px;
+    font-size: larger;
+}
+.basket{
+    color: antiquewhite;
+    width: 30px;
+    height: 50px;
+    margin-top:20px;
+    margin-left: 10px;
+}
+.sign{
+    border: none;
+    border-radius: 10px;
+    background-color: yellow;
+    padding: 0px 50px;
+    margin-left: 20%;
+}
+.get{
+    color: yellow;
+}
+.logo{
+    width: 5%;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.cat{
+    font-size: large;
+    font-weight: bold;
+    border: solid 1px ;
+    margin-top: 2%;
+    padding: 10px 40px;
+    background-color:whitesmoke;
+}
+.search{
+    font-size: large;
+    border: solid 1px ;
+    margin-top: 2%;
+    padding: 10px 450px;
+    background-color:whitesmoke;
+
+}
+.trusted{
+    background-image: url("/images/gagets.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 70%;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+.gadgets{
+    margin-left: 10%;
+    padding-top: 100px;
+}
+.disc{
+    font-size: large;
+    color: rgb(29, 27, 27);
+    margin-left: 10%;
+}
+.buttons{
+    margin-top: 20%;
+    margin-left: 10%;
+}
+.order{
+border: none;
+border-radius: 5px;
+padding: 15px 35px;
+background-color: yellow;
+font-size: medium;
+
+}
+.explore{
+    border: solid 2px white;
+    border-radius: 5px;
+    padding: 15px 35px;
+    background-color: transparent;
+    font-size: medium;
+    font-weight: bolder;
+}
+.ion{
+    width: 20px;
+    height: 20px;
+    margin-left: 30px;
+}
+.icons{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.icon{
+border: solid 1px rgb(211, 204, 204);
+padding: 20px 20px;
+}
+.ico{
+    border: solid 1px rgb(211, 204, 204);
+padding: 20px 15px;
+background-color: black;
+color: aliceblue;
+}
+.product{
+    display: flex;
+    margin-top:20px;
+    margin-left: 5%;
+
+}
+.new{
+
+width: 100%;
+height: 300px;
+}
+.pro{
+
+width: 100%;
+height: 300px;
+}
+.test{
+    display: flex;
+    margin-top: 5%;
+}
+.man{
+    width: 100%;
+    height: 200px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 50%;
+}
+.testi{
+text-align: center;
+font-weight: bold;
+color: black;
+}
+.lorem{
+text-align: center;
+font-weight: bold;
+color: rgb(87, 82, 82);
+font-size: large;
+
+
+}
+.ipsum{
+color: rgb(87, 82, 82);
+font-weight: bold;
+margin-left: 20%;
+font-size: large;
+}
+.came{
+font-size: larger;
+font-weight: bolder;
+margin-left: 8%;
+}
+.project{
+    margin-left: 8%;
+
+}
+footer{
+    display: flex;
+    margin-top: 5%;
+    background-color: rgb(59, 52, 52);
+    height: 300px;
+
+}
+ul li{
+    text-decoration: none;
+    list-style: none;
+    color: azure;
+    font-size: medium;
+    font-weight: bold;
+    height: 40px;
+}
+.gad{
+    color: yellow;
+}
+.smart{
+    font-size: xx-large;
+}
+.subs{
+    display: flex;
+    margin-left: 8%;
+
+}
+.sub{
+
+}
+.email{
+    border: none;
+    border-radius: 5px;
+    padding: 20px 100px;
+    background-color: yellow;
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 5%;
+}
+.call{
+    margin-left: 6%;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(92, 90, 90);
+    margin-top: 30px;
+}
+.remote{
+    display: flex;
+    margin-top: 5%;
+    background-color:#f3d9fa ;
+    width: 75%;
+    margin-left: 10%;
+}
+.butt{
+    width: 60%;
+    height: 300px;
+    margin-left: 40%;
+}
+.level{
+    margin-left: 10%;
+   
+}
+.off{
+    color: yellow;
+}
+.design{
+    color: rgb(39, 37, 37);
+    font-size: large;
+}

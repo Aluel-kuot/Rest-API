@@ -1,31 +1,32 @@
 
-let productContainer=document.getElementById('items')
 
-const getProduct=()=>{
-    return fetch('https://dummyjson.com/products')
-  .then(response=>response.json())
-  .then(response=>response)
-  .catch(error=>error.message)
-};
-
-
-const displayProducts=async()=>{
-  const items=  await getProduct();
-  console.log(items.items);
-  items.items.map(item => {
-      let div=document.createElement('div')
-      div.className='product';
-      let img=document.createElement('img')
-      let products=document.createElement('h2')
-      let price=document.createElement('p')
-      img.src=item.images;
-      products.innerHTML=item.products
-      price.innerHTML=item.price;
-      div.appendChild(img);
-      div.appendChild(products);
-      div.appendChild(price);
-      productContainer.appendChild(div);
-
+function generateProductCards(data) {
+  const products = document.getElementById("items");
+  data.forEach((product) => {
+    const card = document.createElement("div");
+    card.classList.add("product-section");
+    card.innerHTML = `
+            <img src="${product.thumbnail}" alt="${product.name}" />
+            <h2>${product.title}</h2>
+            <div class='productPrice'>
+            <p>${product.price}</p>
+            <button>ADD TO CART</button>
+            </div>
+        `;
+    products.appendChild(card);
   });
-};
-displayProducts();
+}
+function fetchProducts() {
+  fetch("https://dummyjson.com/products")
+    .then((response) => response.json())
+    .then((data) => {
+      const returnedData = data.products.slice(0, 8);
+      generateProductCards(returnedData);
+    });
+}
+fetchProducts()
+
+
+
+
+

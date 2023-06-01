@@ -233,3 +233,38 @@ ul li{
     color: rgb(39, 37, 37);
     font-size: large;
 }
+#products{
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+   margin-left: 8%;
+}
+.product-section {
+    display: flex;
+    flex-direction: column;
+  margin-top: 1rem;
+  background-color: white;
+  }
+  .product-section img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px; 
+  }
+  .product-section h2 {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+   .product-section .productPrice {
+    display: flex;
+    gap: 5rem;
+   }
+  .product-section .productPrice p {
+    font-size: 14px;
+  }
+  .product-section .productPrice button {
+    background-color: rgb(53, 46, 10);
+    color: #fff;
+    border: none;
+    padding: 5px 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
